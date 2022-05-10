@@ -1,0 +1,192 @@
+name: 0_devant_bureau
+pose: 
+  position: 
+    x: 2.79335
+    y: 3.49173
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.999997
+    w: 0.00223644
+---
+name: 2_corner
+pose: 
+  position: 
+    x: -19.5614
+    y: 26.3649
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.00975743
+    w: 0.999952
+---
+name: 3_corner
+pose: 
+  position: 
+    x: -2.67916
+    y: 22.9639
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: -0.00450314
+    w: 0.99999
+---
+name: 5_corner
+pose: 
+  position: 
+    x: 14.8718
+    y: 3.60086
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.999926
+    w: 0.0121318
+---
+name: a
+pose: 
+  position: 
+    x: 1.64662
+    y: 1.42388
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.175364
+    w: 0.984504
+---
+name: b
+pose: 
+  position: 
+    x: 2.69717
+    y: 2.25278
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.670046
+    w: 0.74232
+---
+name: c
+pose: 
+  position: 
+    x: 2.78598
+    y: 3.49667
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.998662
+    w: 0.0517106
+---
+name: d
+pose: 
+  position: 
+    x: -19.0462
+    y: 3.84733
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.743406
+    w: 0.668841
+---
+name: e
+pose: 
+  position: 
+    x: -19.4709
+    y: 26.2949
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.0593937
+    w: 0.998235
+---
+name: f
+pose: 
+  position: 
+    x: -2.5041
+    y: 23.0517
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.0109041
+    w: 0.999941
+---
+name: fin
+pose: 
+  position: 
+    x: 1.68935
+    y: 1.24896
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: -0.856046
+    w: 0.516899
+---
+name: fin_devant
+pose: 
+  position: 
+    x: 2.71303
+    y: 3.4871
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: -0.731869
+    w: 0.681446
+---
+name: g
+pose: 
+  position: 
+    x: 15.6432
+    y: 23.1603
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: -0.656914
+    w: 0.753966
+---
+name: h
+pose: 
+  position: 
+    x: 15.0457
+    y: 3.7034
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.999986
+    w: -0.00534659
+---
+name: i
+pose: 
+  position: 
+    x: 1.71987
+    y: 1.30724
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: -0.833146
+    w: 0.553053
+---
+name: plus1
+pose: 
+  position: 
+    x: 3.35858
+    y: 3.44811
+    z: 0
+  orientation: 
+    x: 0
+    y: 0
+    z: 0.999986
+    w: 0.00523847
+---

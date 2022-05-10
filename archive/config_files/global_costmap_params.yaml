@@ -1,0 +1,27 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+  update_frequency: 1.0 #before: 5.0
+  publish_frequency: 0.5 #before 0.5
+  static_map: true
+  # transform_tolerance: 0.5
+  # cost_scaling_factor: 2.0
+  inflation_radius: 1.0 #0.45
+
+  track_unknown_space: true #needed for diabling panning through unknown space
+
+
+  plugins:
+  - {name: static_layer, type: "costmap_2d::StaticLayer"}
+  - {name: obstacle_layer, type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
+
+  obstacle_layer:
+    observation_sources: scan
+    scan:
+      data_type: LaserScan
+      topic: scan
+      marking: false
+      clearing: true
+    track_unknown_space: true #needed for diabling panning through unknown space
+    

@@ -1,0 +1,35 @@
+obstacle_range: 3.5
+raytrace_range: 5.0
+footprint: [[-0.22, -0.22], [-0.22, 0.22], [0.22, 0.22], [0.22, -0.22]]
+# inflation_radius: 1.0 #0.55
+# cost_scaling_factor: 3
+transform_tolerance: 0.5
+
+cost_factor: 0.55
+neutral_cost: 66
+
+#inf_is_valid: true   
+map_type: costmap
+
+static_layer:
+  map_topic: map
+  subscribe_to_updates: false
+
+inflation_layer:
+  inflation_radius: 0.5 #0.55
+  cost_scaling_factor: 2.5 #2.58
+
+recovery_behaviors:
+  - {name: consevative_reset, type: clear_costmap_recovery/ClearCostmapRecovery}
+  - {name: rotate_recovery, type: clear_costmap_recovery/ClearCostmapRecovery}
+  - {name: agressive_reset, type: clear_costmap_recovery/ClearCostmapRecovery}
+
+
+rotate_recovery:
+  layer_names: [obstacle_layer, obstacles]
+  reset_distance: 0.0
+
+agressive_reset:
+  layer_names: [obstacle_layer, obstacles]
+  reset_distance: 0.0
+

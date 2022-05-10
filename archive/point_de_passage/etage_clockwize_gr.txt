@@ -1,0 +1,30 @@
+name: clockwize_less_points
+wp_list: 
+   - 0_devant_bureau
+   - 2_corner
+   - 3_corner
+   - 5_corner
+   - fin
+---
+name: etage_clockwize
+wp_list: 
+   - b
+   - c
+   - d
+   - e
+   - f
+   - g
+   - h
+---
+name: etage_clockwize_bureau
+wp_list: 
+   - a
+   - b
+   - c
+   - d
+   - e
+   - f
+   - g
+   - fin_devant
+   - fin
+---
